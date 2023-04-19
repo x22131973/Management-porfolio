@@ -26,3 +26,8 @@ class Employee(models.Model):
         #db_table = "login"
 
 
+class Company(models.Model):
+    # Your model fields
+
+    class Meta:
+        app_label = 'mirai'
